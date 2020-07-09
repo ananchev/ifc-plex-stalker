@@ -1,0 +1,1375 @@
+2020-07-05 15:21:48,460 - root - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 15:21:48,460 - root - DEBUG - test
+2020-07-05 15:24:44,695 - root - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 15:24:44,695 - root - DEBUG - test
+2020-07-05 15:24:55,760 - root - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 15:24:55,762 - root - DEBUG - test
+2020-07-05 15:27:57,919 - root - DEBUG - test
+2020-07-05 15:29:53,211 - root - DEBUG - test
+2020-07-05 15:31:31,105 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 15:31:31,105 - root - DEBUG - test
+2020-07-05 15:39:58,461 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 15:51:19,548 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 15:52:32,747 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 15:52:32,755 - root.plexdata - DEBUG - Executing 
+    SELECT 
+        media_items.id AS media_item_id,
+        metadata_item_id AS metadata_item_id,
+        hash,
+        title, 
+        summary,
+        media_items.duration,
+        tags_genre,
+        tags_director,
+        tags_star,
+        year,
+        user_thumb_url,
+        metadata_items.updated_at AS media_last_updated,
+        media_items.updated_at AS metadata_last_updated
+    FROM media_items
+    INNER JOIN metadata_items
+        ON media_items.metadata_item_id = metadata_items.id
+    WHERE
+        media_items.library_section_id = 2 
+        AND
+        media_item_id IN (9415, 9557); with args <sqlite3.Connection object at 0x7feb506c63f0>.
+2020-07-05 15:53:18,303 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 15:53:18,310 - root.plexdata - DEBUG - Executing 
+    SELECT 
+        media_items.id AS media_item_id,
+        metadata_item_id AS metadata_item_id,
+        hash,
+        title, 
+        summary,
+        media_items.duration,
+        tags_genre,
+        tags_director,
+        tags_star,
+        year,
+        user_thumb_url,
+        metadata_items.updated_at AS media_last_updated,
+        media_items.updated_at AS metadata_last_updated
+    FROM media_items
+    INNER JOIN metadata_items
+        ON media_items.metadata_item_id = metadata_items.id
+    WHERE
+        media_items.library_section_id = 2 
+        AND
+        media_item_id IN (9415, 9557); with args <sqlite3.Connection object at 0x7fdeb2843300>.
+2020-07-05 15:53:48,049 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 15:54:58,266 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 15:55:10,525 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 15:55:22,379 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 16:03:05,177 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 16:22:28,048 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 16:23:08,448 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 16:23:38,898 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 16:24:12,633 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 16:25:31,627 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 16:26:28,755 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 16:26:28,761 - root.plexdata - ERROR - Exception in _query: local variable 'con' referenced before assignment
+2020-07-05 16:27:35,751 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 16:27:35,757 - root.plexdata - ERROR - Exception in _query: local variable 'con' referenced before assignment
+2020-07-05 16:28:02,512 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 16:28:02,518 - root.plexdata - ERROR - Exception in _query: 'NoneType' object has no attribute 'cursor'
+2020-07-05 16:35:37,061 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 21:14:56,267 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 21:15:48,668 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 21:19:00,809 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 21:19:39,419 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 21:20:06,758 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 21:20:26,363 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 21:21:28,066 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 21:23:18,643 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 21:23:41,917 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 21:33:12,193 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 21:37:20,626 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 21:40:46,143 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 21:41:54,952 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 21:43:26,990 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 21:44:22,393 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 21:47:01,267 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 21:49:25,953 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 21:49:44,399 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 22:02:40,612 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 22:03:08,565 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 22:03:08,619 - root.plexdata - ERROR - Exception in pandasReadSQL: Execution failed on sql '
+    SELECT 
+        media_items.id AS md_id,
+        metadata_item_id AS mt_id,
+        CAST(strftime('%s', metadata_items.updated_at) AS INTEGER) AS md_lu,
+        CAST(strftime('%s', media_items.updated_at) AS INTEGER) AS mt_lu
+    FROM media_items
+    INNER JOIN metadata_items
+        ON media_items.metadata_item_id = metadata_items.id
+    WHERE
+        media_items.library_section_id = 2 
+        AND
+        media_item_id IN (9415, 9557);': no such column: media_item_id
+2020-07-05 22:04:24,241 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 22:04:24,296 - root.plexdata - ERROR - Exception in pandasReadSQL: Execution failed on sql '
+    SELECT 
+        media_items.id AS md_id,
+        metadata_item_id AS mt_id,
+        CAST(strftime('%s', metadata_items.updated_at) AS INTEGER) AS md_lu,
+        CAST(strftime('%s', media_items.updated_at) AS INTEGER) AS mt_lu
+    FROM media_items
+    INNER JOIN metadata_items
+        ON media_items.metadata_item_id = metadata_items.id
+    WHERE
+        media_items.library_section_id = 2 
+        AND
+        media_item_id IN (9415, 9557);': no such column: media_item_id
+2020-07-05 22:09:31,740 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 22:09:56,310 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 22:10:47,119 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 22:11:19,452 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 22:13:35,413 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 22:14:16,098 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 22:14:26,894 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 22:15:12,772 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 22:15:36,484 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 22:16:11,614 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 22:16:24,093 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 22:18:00,460 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 22:18:18,205 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 22:18:36,276 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 22:19:18,486 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 22:20:46,273 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 22:21:00,803 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 22:25:57,503 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 22:26:09,098 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 22:28:31,828 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 22:29:45,298 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-05 22:30:35,020 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:00:17,376 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:06:21,582 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:06:49,058 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:07:11,281 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:07:37,043 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:07:37,049 - root.plexdata - ERROR - Exception in _query: operation parameter must be str
+2020-07-06 22:08:59,272 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:08:59,280 - root.plexdata - ERROR - Exception in _query: operation parameter must be str
+2020-07-06 22:09:11,651 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:09:11,655 - root.plexdata - ERROR - Exception in _query: operation parameter must be str
+2020-07-06 22:10:32,076 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:10:32,084 - root.plexdata - ERROR - Exception in _query: operation parameter must be str
+2020-07-06 22:11:39,582 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:11:39,589 - root.plexdata - ERROR - Exception in _query: operation parameter must be str
+2020-07-06 22:14:17,459 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:14:17,473 - root.plexdata - ERROR - Exception in _query: operation parameter must be str
+2020-07-06 22:15:58,949 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:15:58,955 - root.plexdata - ERROR - Exception in _query: operation parameter must be str
+2020-07-06 22:16:48,596 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:16:48,601 - root.plexdata - ERROR - Exception in _query: operation parameter must be str
+2020-07-06 22:17:09,705 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:17:09,711 - root.plexdata - ERROR - Exception in _query: operation parameter must be str
+2020-07-06 22:19:19,492 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:20:40,721 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:21:07,314 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:21:25,751 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:22:25,201 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:22:42,061 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:22:42,065 - root.plexdata - ERROR - Exception in _query: operation parameter must be str
+2020-07-06 22:24:19,867 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:25:19,771 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:25:19,776 - root.plexdata - ERROR - Exception in _query: operation parameter must be str
+2020-07-06 22:25:49,352 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:25:49,359 - root.plexdata - ERROR - Exception in _query: operation parameter must be str
+2020-07-06 22:26:45,665 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:26:45,671 - root.plexdata - ERROR - Exception in _query: operation parameter must be str
+2020-07-06 22:27:16,884 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:27:16,892 - root.plexdata - ERROR - Exception in _query: operation parameter must be str
+2020-07-06 22:27:51,926 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:27:51,933 - root.plexdata - ERROR - Exception in _query: operation parameter must be str
+2020-07-06 22:30:19,249 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:32:03,264 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:33:10,191 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:35:14,024 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:40:47,005 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:43:50,968 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 22:44:16,374 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 23:33:30,176 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 23:44:55,303 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 23:45:36,480 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 23:45:51,232 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 23:50:45,159 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 23:55:03,438 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 23:55:46,733 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-06 23:57:27,038 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-07 22:32:32,763 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-07 23:15:58,989 - root.plexdata - DEBUG - Path to this application: /home/ananchev/ifc-plex-stalker
+2020-07-07 23:15:58,989 - root.plexdata - DEBUG - Using interface db path: /home/ananchev/ifc-plex-stalker/interface.db
+2020-07-07 23:15:58,989 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-07 23:15:58,989 - root.plexdata - DEBUG - Using plex metadata folder path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-07 23:15:58,999 - root.plexdata - DEBUG - success opening plex database connection
+2020-07-07 23:15:59,000 - root.plexdata - DEBUG - success opening ifc database connection
+2020-07-07 23:15:59,040 - root.plexdata - DEBUG - success opening stalker database connection
+2020-07-07 23:25:26,042 - root.plexdata - DEBUG - Path to this application: /home/ananchev/ifc-plex-stalker
+2020-07-07 23:25:26,042 - root.plexdata - DEBUG - Using interface db path: /home/ananchev/ifc-plex-stalker/interface.db
+2020-07-07 23:25:26,042 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-07 23:25:26,042 - root.plexdata - DEBUG - Using plex metadata folder path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-07 23:25:26,051 - root.plexdata - DEBUG - success opening plex database connection
+2020-07-07 23:25:26,051 - root.plexdata - DEBUG - success opening ifc database connection
+2020-07-07 23:25:26,058 - root.plexdata - DEBUG - success opening stalker database connection
+2020-07-07 23:25:55,681 - root.plexdata - DEBUG - Path to this application: /home/ananchev/ifc-plex-stalker
+2020-07-07 23:25:55,681 - root.plexdata - DEBUG - Using interface db path: /home/ananchev/ifc-plex-stalker/interface.db
+2020-07-07 23:25:55,682 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-07 23:25:55,682 - root.plexdata - DEBUG - Using plex metadata folder path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-07 23:25:55,689 - root.plexdata - DEBUG - success opening plex database connection
+2020-07-07 23:25:55,689 - root.plexdata - DEBUG - success opening ifc database connection
+2020-07-07 23:25:55,696 - root.plexdata - DEBUG - success opening stalker database connection
+2020-07-07 23:25:55,897 - root.plexdata - DEBUG - Success syncronising all 20 TV and Movie genres.
+2020-07-07 23:37:35,524 - root.plexdata - DEBUG - Path to this application: /home/ananchev/ifc-plex-stalker
+2020-07-07 23:37:35,524 - root.plexdata - DEBUG - Using interface db path: /home/ananchev/ifc-plex-stalker/interface.db
+2020-07-07 23:37:35,524 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-07 23:37:35,524 - root.plexdata - DEBUG - Using plex metadata folder path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-07 23:37:35,531 - root.plexdata - DEBUG - success opening plex database connection
+2020-07-07 23:37:35,531 - root.plexdata - DEBUG - success opening ifc database connection
+2020-07-07 23:37:35,538 - root.plexdata - DEBUG - success opening stalker database connection
+2020-07-07 23:37:35,721 - root.plexdata - DEBUG - Success syncronising all 20 TV and Movie genres.
+2020-07-07 23:39:01,770 - root.plexdata - DEBUG - Path to this application: /home/ananchev/ifc-plex-stalker
+2020-07-07 23:39:01,770 - root.plexdata - DEBUG - Using interface db path: /home/ananchev/ifc-plex-stalker/interface.db
+2020-07-07 23:39:01,770 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-07 23:39:01,770 - root.plexdata - DEBUG - Using plex metadata folder path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-07 23:39:01,778 - root.plexdata - DEBUG - success opening plex database connection
+2020-07-07 23:39:01,778 - root.plexdata - DEBUG - success opening ifc database connection
+2020-07-07 23:39:01,785 - root.plexdata - DEBUG - success opening stalker database connection
+2020-07-07 23:39:01,985 - root.plexdata - ERROR - MySQL  error: 1054 (42S22): Unknown column 'Action' in 'field list'
+2020-07-07 23:39:01,986 - root.plexdata - ERROR - MySQL  error: 1054 (42S22): Unknown column 'Adventure' in 'field list'
+2020-07-07 23:39:01,988 - root.plexdata - ERROR - MySQL  error: 1054 (42S22): Unknown column 'Biography' in 'field list'
+2020-07-07 23:39:01,989 - root.plexdata - ERROR - MySQL  error: 1054 (42S22): Unknown column 'Comedy' in 'field list'
+2020-07-07 23:39:01,991 - root.plexdata - ERROR - MySQL  error: 1054 (42S22): Unknown column 'Crime' in 'field list'
+2020-07-07 23:39:01,992 - root.plexdata - ERROR - MySQL  error: 1054 (42S22): Unknown column 'Drama' in 'field list'
+2020-07-07 23:39:02,000 - root.plexdata - ERROR - MySQL  error: 1054 (42S22): Unknown column 'Family' in 'field list'
+2020-07-07 23:39:02,001 - root.plexdata - ERROR - MySQL  error: 1054 (42S22): Unknown column 'Fantasy' in 'field list'
+2020-07-07 23:39:02,003 - root.plexdata - ERROR - MySQL  error: 1054 (42S22): Unknown column 'History' in 'field list'
+2020-07-07 23:39:02,004 - root.plexdata - ERROR - MySQL  error: 1054 (42S22): Unknown column 'Music' in 'field list'
+2020-07-07 23:39:02,006 - root.plexdata - ERROR - MySQL  error: 1054 (42S22): Unknown column 'Musical' in 'field list'
+2020-07-07 23:39:02,008 - root.plexdata - ERROR - MySQL  error: 1054 (42S22): Unknown column 'Romance' in 'field list'
+2020-07-07 23:39:02,009 - root.plexdata - ERROR - MySQL  error: 1054 (42S22): Unknown column 'Thriller' in 'field list'
+2020-07-07 23:39:02,010 - root.plexdata - ERROR - MySQL  error: 1054 (42S22): Unknown column 'War' in 'field list'
+2020-07-07 23:39:02,011 - root.plexdata - ERROR - MySQL  error: 1054 (42S22): Unknown column 'Action' in 'field list'
+2020-07-07 23:39:02,013 - root.plexdata - ERROR - MySQL  error: 1054 (42S22): Unknown column 'Adventure' in 'field list'
+2020-07-07 23:39:02,013 - root.plexdata - ERROR - MySQL  error: 1054 (42S22): Unknown column 'Crime' in 'field list'
+2020-07-07 23:39:02,015 - root.plexdata - ERROR - MySQL  error: 1054 (42S22): Unknown column 'Drama' in 'field list'
+2020-07-07 23:39:02,016 - root.plexdata - ERROR - MySQL  error: 1054 (42S22): Unknown column 'History' in 'field list'
+2020-07-07 23:39:02,017 - root.plexdata - ERROR - MySQL  error: 1054 (42S22): Unknown column 'Mini' in 'field list'
+2020-07-07 23:39:02,017 - root.plexdata - DEBUG - Success syncronising all 20 TV and Movie genres.
+2020-07-07 23:43:22,891 - root.plexdata - DEBUG - Path to this application: /home/ananchev/ifc-plex-stalker
+2020-07-07 23:43:22,891 - root.plexdata - DEBUG - Using interface db path: /home/ananchev/ifc-plex-stalker/interface.db
+2020-07-07 23:43:22,891 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-07 23:43:22,892 - root.plexdata - DEBUG - Using plex metadata folder path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-07 23:43:22,899 - root.plexdata - DEBUG - success opening plex database connection
+2020-07-07 23:43:22,899 - root.plexdata - DEBUG - success opening ifc database connection
+2020-07-07 23:43:22,906 - root.plexdata - DEBUG - success opening stalker database connection
+2020-07-07 23:43:23,085 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-07 23:43:23,087 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-07 23:43:23,088 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-07 23:43:23,089 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-07 23:43:23,090 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-07 23:43:23,091 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-07 23:43:23,092 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-07 23:43:23,093 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-07 23:43:23,094 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-07 23:43:23,095 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-07 23:43:23,097 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-07 23:43:23,098 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-07 23:43:23,099 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-07 23:43:23,100 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-07 23:43:23,110 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-07 23:43:23,111 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-07 23:43:23,112 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-07 23:43:23,113 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-07 23:43:23,115 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-07 23:43:23,116 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-07 23:43:23,116 - root.plexdata - DEBUG - Success executing the query to update all 20 TV and Movie genres.
+2020-07-08 22:33:47,877 - root.plexdata - DEBUG - Path to this application: /home/ananchev/ifc-plex-stalker
+2020-07-08 22:33:47,877 - root.plexdata - DEBUG - Using interface db path: /home/ananchev/ifc-plex-stalker/interface.db
+2020-07-08 22:33:47,877 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-08 22:33:47,877 - root.plexdata - DEBUG - Using plex metadata folder path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-08 22:33:47,888 - root.plexdata - DEBUG - success opening plex database connection
+2020-07-08 22:33:47,889 - root.plexdata - DEBUG - success opening ifc database connection
+2020-07-08 22:33:47,895 - root.plexdata - DEBUG - success opening stalker database connection
+2020-07-08 22:33:48,047 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-08 22:33:48,048 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-08 22:33:48,052 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-08 22:33:48,055 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-08 22:33:48,056 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-08 22:33:48,057 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-08 22:33:48,059 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-08 22:33:48,061 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-08 22:33:48,061 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-08 22:33:48,063 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-08 22:33:48,064 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-08 22:33:48,064 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-08 22:33:48,065 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-08 22:33:48,066 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-08 22:33:48,067 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-08 22:33:48,068 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-08 22:33:48,069 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-08 22:33:48,070 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-08 22:33:48,071 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-08 22:33:48,073 - root.plexdata - ERROR - MySQL  error: No result set to fetch from.
+2020-07-08 22:33:48,073 - root.plexdata - DEBUG - Success executing the query to update all 20 TV and Movie genres.
+2020-07-08 23:02:36,950 - root.plexdata - DEBUG - Path to this application: /home/ananchev/ifc-plex-stalker
+2020-07-08 23:02:36,951 - root.plexdata - DEBUG - Using interface db path: /home/ananchev/ifc-plex-stalker/interface.db
+2020-07-08 23:02:36,951 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-08 23:02:36,951 - root.plexdata - DEBUG - Using plex metadata folder path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-08 23:02:36,959 - root.plexdata - DEBUG - success opening plex database connection
+2020-07-08 23:02:36,959 - root.plexdata - DEBUG - success opening ifc database connection
+2020-07-08 23:02:36,966 - root.plexdata - DEBUG - success opening stalker database connection
+2020-07-08 23:02:37,107 - root.plexdata - DEBUG - -1 rows from plex database returned.
+2020-07-08 23:02:37,109 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:02:37,110 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:02:37,111 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:02:37,112 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:02:37,113 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:02:37,114 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:02:37,116 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:02:37,117 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:02:37,118 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:02:37,119 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:02:37,120 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:02:37,121 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:02:37,122 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:02:37,123 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:02:37,124 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:02:37,125 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:02:37,126 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:02:37,127 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:02:37,128 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:02:37,129 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:02:37,129 - root.plexdata - DEBUG - Success executing the query to update all 20 TV and Movie genres.
+2020-07-08 23:06:44,194 - root.plexdata - DEBUG - Path to this application: /home/ananchev/ifc-plex-stalker
+2020-07-08 23:06:44,194 - root.plexdata - DEBUG - Using interface db path: /home/ananchev/ifc-plex-stalker/interface.db
+2020-07-08 23:06:44,195 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-08 23:06:44,195 - root.plexdata - DEBUG - Using plex metadata folder path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-08 23:06:44,201 - root.plexdata - DEBUG - success opening plex database connection
+2020-07-08 23:06:44,202 - root.plexdata - DEBUG - success opening ifc database connection
+2020-07-08 23:06:44,208 - root.plexdata - DEBUG - success opening stalker database connection
+2020-07-08 23:06:44,366 - root.plexdata - DEBUG - -1 rows from plex database returned.
+2020-07-08 23:06:44,369 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:06:44,371 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:06:44,372 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:06:44,373 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:06:44,375 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:06:44,377 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:06:44,378 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:06:44,379 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:06:44,380 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:06:44,381 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:06:44,382 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:06:44,383 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:06:44,384 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:06:44,385 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:06:44,386 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:06:44,387 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:06:44,388 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:06:44,389 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:06:44,390 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:06:44,391 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:06:44,391 - root.plexdata - DEBUG - Success executing the query to update all 20 TV and Movie genres.
+2020-07-08 23:06:44,393 - root.plexdata - DEBUG - 34 rows from stalker database returned.
+2020-07-08 23:07:53,487 - root.plexdata - DEBUG - Path to this application: /home/ananchev/ifc-plex-stalker
+2020-07-08 23:07:53,488 - root.plexdata - DEBUG - Using interface db path: /home/ananchev/ifc-plex-stalker/interface.db
+2020-07-08 23:07:53,489 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-08 23:07:53,489 - root.plexdata - DEBUG - Using plex metadata folder path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-08 23:07:53,497 - root.plexdata - DEBUG - success opening plex database connection
+2020-07-08 23:07:53,497 - root.plexdata - DEBUG - success opening ifc database connection
+2020-07-08 23:07:53,512 - root.plexdata - DEBUG - success opening stalker database connection
+2020-07-08 23:07:53,642 - root.plexdata - DEBUG - -1 rows from plex database returned.
+2020-07-08 23:07:53,644 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:07:53,646 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:07:53,655 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:07:53,658 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:07:53,659 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:07:53,660 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:07:53,661 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:07:53,662 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:07:53,663 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:07:53,665 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:07:53,666 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:07:53,667 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:07:53,668 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:07:53,669 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:07:53,671 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:07:53,672 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:07:53,673 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:07:53,674 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:07:53,675 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:07:53,676 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:07:53,676 - root.plexdata - DEBUG - Success executing the query to update all 20 TV and Movie genres.
+2020-07-08 23:07:53,677 - root.plexdata - DEBUG - 34 rows from stalker database returned.
+2020-07-08 23:12:45,771 - root.plexdata - DEBUG - Path to this application: /home/ananchev/ifc-plex-stalker
+2020-07-08 23:12:45,772 - root.plexdata - DEBUG - Using interface db path: /home/ananchev/ifc-plex-stalker/interface.db
+2020-07-08 23:12:45,773 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-08 23:12:45,773 - root.plexdata - DEBUG - Using plex metadata folder path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-08 23:12:45,781 - root.plexdata - DEBUG - success opening plex database connection
+2020-07-08 23:12:45,781 - root.plexdata - DEBUG - success opening ifc database connection
+2020-07-08 23:12:45,789 - root.plexdata - DEBUG - success opening stalker database connection
+2020-07-08 23:12:45,789 - root.plexdata - DEBUG - Query to execute:
+SELECT DISTINCT tags_genre, library_section_id
+    FROM metadata_items
+    WHERE library_section_id IN (2, 3);
+2020-07-08 23:12:45,938 - root.plexdata - DEBUG - -1 rows from plex database returned.
+2020-07-08 23:12:45,939 - root.plexdata - DEBUG - Query to execute:
+INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-08 23:12:45,940 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:12:45,940 - root.plexdata - DEBUG - Query to execute:
+INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-08 23:12:45,941 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:12:45,941 - root.plexdata - DEBUG - Query to execute:
+INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Biography', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Biography'
+    ) LIMIT 1
+2020-07-08 23:12:45,942 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:12:45,943 - root.plexdata - DEBUG - Query to execute:
+INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Comedy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Comedy'
+    ) LIMIT 1
+2020-07-08 23:12:45,944 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:12:45,944 - root.plexdata - DEBUG - Query to execute:
+INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-08 23:12:45,945 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:12:45,946 - root.plexdata - DEBUG - Query to execute:
+INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-08 23:12:45,946 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:12:45,947 - root.plexdata - DEBUG - Query to execute:
+INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Family', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Family'
+    ) LIMIT 1
+2020-07-08 23:12:45,947 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:12:45,948 - root.plexdata - DEBUG - Query to execute:
+INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Fantasy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Fantasy'
+    ) LIMIT 1
+2020-07-08 23:12:45,949 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:12:45,949 - root.plexdata - DEBUG - Query to execute:
+INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-08 23:12:45,950 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:12:45,950 - root.plexdata - DEBUG - Query to execute:
+INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Music', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Music'
+    ) LIMIT 1
+2020-07-08 23:12:45,951 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:12:45,952 - root.plexdata - DEBUG - Query to execute:
+INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Musical', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Musical'
+    ) LIMIT 1
+2020-07-08 23:12:45,952 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:12:45,953 - root.plexdata - DEBUG - Query to execute:
+INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Romance', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Romance'
+    ) LIMIT 1
+2020-07-08 23:12:45,954 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:12:45,954 - root.plexdata - DEBUG - Query to execute:
+INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Thriller', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Thriller'
+    ) LIMIT 1
+2020-07-08 23:12:45,955 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:12:45,956 - root.plexdata - DEBUG - Query to execute:
+INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'War', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'War'
+    ) LIMIT 1
+2020-07-08 23:12:45,956 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:12:45,957 - root.plexdata - DEBUG - Query to execute:
+INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-08 23:12:45,958 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:12:45,958 - root.plexdata - DEBUG - Query to execute:
+INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-08 23:12:45,959 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:12:45,959 - root.plexdata - DEBUG - Query to execute:
+INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-08 23:12:45,960 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:12:45,961 - root.plexdata - DEBUG - Query to execute:
+INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-08 23:12:45,962 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:12:45,962 - root.plexdata - DEBUG - Query to execute:
+INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-08 23:12:45,963 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:12:45,963 - root.plexdata - DEBUG - Query to execute:
+INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Mini-Series', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Mini-Series'
+    ) LIMIT 1
+2020-07-08 23:12:45,964 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:12:45,964 - root.plexdata - INFO - Success executing the query to update all 20 TV and Movie genres.
+2020-07-08 23:12:45,964 - root.plexdata - DEBUG - Query to execute:
+SELECT * FROM cat_genre
+2020-07-08 23:12:45,965 - root.plexdata - DEBUG - 34 rows from stalker database returned.
+2020-07-08 23:17:25,671 - root.plexdata - DEBUG - Path to this application: /home/ananchev/ifc-plex-stalker
+2020-07-08 23:17:25,671 - root.plexdata - DEBUG - Using interface db path: /home/ananchev/ifc-plex-stalker/interface.db
+2020-07-08 23:17:25,671 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-08 23:17:25,672 - root.plexdata - DEBUG - Using plex metadata folder path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-08 23:17:25,678 - root.plexdata - DEBUG - success opening plex database connection
+2020-07-08 23:17:25,679 - root.plexdata - DEBUG - success opening ifc database connection
+2020-07-08 23:17:25,685 - root.plexdata - DEBUG - success opening stalker database connection
+2020-07-08 23:17:25,685 - root.plexdata - DEBUG - Query to execute:
+	SELECT DISTINCT tags_genre, library_section_id
+    FROM metadata_items
+    WHERE library_section_id IN (2, 3);
+2020-07-08 23:17:25,837 - root.plexdata - DEBUG - 28 rows from plex database returned.
+2020-07-08 23:17:25,839 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-08 23:17:25,840 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:17:25,842 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-08 23:17:25,844 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:17:25,845 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Biography', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Biography'
+    ) LIMIT 1
+2020-07-08 23:17:25,845 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:17:25,846 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Comedy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Comedy'
+    ) LIMIT 1
+2020-07-08 23:17:25,847 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:17:25,847 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-08 23:17:25,848 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:17:25,849 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-08 23:17:25,849 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:17:25,850 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Family', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Family'
+    ) LIMIT 1
+2020-07-08 23:17:25,851 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:17:25,851 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Fantasy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Fantasy'
+    ) LIMIT 1
+2020-07-08 23:17:25,852 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:17:25,852 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-08 23:17:25,853 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:17:25,854 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Music', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Music'
+    ) LIMIT 1
+2020-07-08 23:17:25,854 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:17:25,855 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Musical', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Musical'
+    ) LIMIT 1
+2020-07-08 23:17:25,855 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:17:25,856 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Romance', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Romance'
+    ) LIMIT 1
+2020-07-08 23:17:25,857 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:17:25,857 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Thriller', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Thriller'
+    ) LIMIT 1
+2020-07-08 23:17:25,858 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:17:25,858 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'War', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'War'
+    ) LIMIT 1
+2020-07-08 23:17:25,859 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:17:25,860 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-08 23:17:25,861 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:17:25,861 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-08 23:17:25,862 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:17:25,862 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-08 23:17:25,863 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:17:25,863 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-08 23:17:25,864 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:17:25,865 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-08 23:17:25,865 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:17:25,866 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Mini-Series', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Mini-Series'
+    ) LIMIT 1
+2020-07-08 23:17:25,866 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:17:25,867 - root.plexdata - INFO - Success executing the query to update all 20 TV and Movie genres.
+2020-07-08 23:17:25,867 - root.plexdata - DEBUG - Query to execute:
+	SELECT * FROM cat_genre
+2020-07-08 23:17:25,868 - root.plexdata - DEBUG - 34 rows from stalker database returned.
+2020-07-08 23:22:47,029 - root.plexdata - INFO - Path to this application: /home/ananchev/ifc-plex-stalker
+2020-07-08 23:22:47,029 - root.plexdata - INFO - Using interface db path: /home/ananchev/ifc-plex-stalker/interface.db
+2020-07-08 23:22:47,029 - root.plexdata - INFO - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-08 23:22:47,029 - root.plexdata - INFO - Using plex metadata folder path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-08 23:22:47,029 - root.plexdata - INFO - Using stalker database stalker_db on 192.168.2.72, connected as stalker user: 
+2020-07-08 23:22:47,043 - root.plexdata - DEBUG - success opening plex database connection
+2020-07-08 23:22:47,043 - root.plexdata - DEBUG - success opening ifc database connection
+2020-07-08 23:22:47,051 - root.plexdata - DEBUG - success opening stalker database connection
+2020-07-08 23:22:47,051 - root.plexdata - DEBUG - Query to execute:
+	SELECT DISTINCT tags_genre, library_section_id
+    FROM metadata_items
+    WHERE library_section_id IN (2, 3);
+2020-07-08 23:22:47,208 - root.plexdata - DEBUG - 28 rows from plex database returned.
+2020-07-08 23:22:47,209 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-08 23:22:47,210 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:22:47,211 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-08 23:22:47,212 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:22:47,213 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Biography', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Biography'
+    ) LIMIT 1
+2020-07-08 23:22:47,213 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:22:47,214 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Comedy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Comedy'
+    ) LIMIT 1
+2020-07-08 23:22:47,215 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:22:47,215 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-08 23:22:47,216 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:22:47,217 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-08 23:22:47,217 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:22:47,218 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Family', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Family'
+    ) LIMIT 1
+2020-07-08 23:22:47,219 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:22:47,219 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Fantasy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Fantasy'
+    ) LIMIT 1
+2020-07-08 23:22:47,220 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:22:47,221 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-08 23:22:47,222 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:22:47,222 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Music', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Music'
+    ) LIMIT 1
+2020-07-08 23:22:47,223 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:22:47,224 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Musical', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Musical'
+    ) LIMIT 1
+2020-07-08 23:22:47,224 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:22:47,228 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Romance', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Romance'
+    ) LIMIT 1
+2020-07-08 23:22:47,229 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:22:47,229 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Thriller', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Thriller'
+    ) LIMIT 1
+2020-07-08 23:22:47,230 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:22:47,231 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'War', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'War'
+    ) LIMIT 1
+2020-07-08 23:22:47,231 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:22:47,232 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-08 23:22:47,233 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:22:47,233 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-08 23:22:47,234 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:22:47,234 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-08 23:22:47,235 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:22:47,236 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-08 23:22:47,236 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:22:47,237 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-08 23:22:47,237 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:22:47,238 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Mini-Series', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Mini-Series'
+    ) LIMIT 1
+2020-07-08 23:22:47,239 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-08 23:22:47,239 - root.plexdata - INFO - Success executing the query to update all 20 TV and Movie genres.
+2020-07-08 23:22:47,239 - root.plexdata - DEBUG - Query to execute:
+	SELECT * FROM cat_genre
+2020-07-08 23:22:47,240 - root.plexdata - DEBUG - 34 rows from stalker database returned.
+2020-07-09 00:15:10,312 - root.plexdata - DEBUG - Path to this application: /home/ananchev/ifc-plex-stalker
+2020-07-09 00:15:10,312 - root.plexdata - DEBUG - Using interface db path: /home/ananchev/ifc-plex-stalker/interface.db
+2020-07-09 00:15:10,312 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-09 00:15:10,312 - root.plexdata - DEBUG - Using plex metadata folder path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-09 00:15:10,313 - root.plexdata - DEBUG - Using stalker database stalker_db on 192.168.2.72, connected as stalker user: 
+2020-07-09 00:15:10,319 - root.plexdata - INFO - success opening plex database connection
+2020-07-09 00:15:10,320 - root.plexdata - INFO - success opening ifc database connection
+2020-07-09 00:15:10,326 - root.plexdata - INFO - success opening stalker database connection
+2020-07-09 00:15:10,326 - root.plexdata - DEBUG - Query to execute:
+	SELECT DISTINCT tags_genre, library_section_id
+    FROM metadata_items
+    WHERE library_section_id IN (2, 3);
+2020-07-09 00:15:10,503 - root.plexdata - DEBUG - 28 rows from plex database returned.
+2020-07-09 00:15:10,504 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-09 00:15:10,505 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:15:10,505 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-09 00:15:10,506 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:15:10,507 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Biography', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Biography'
+    ) LIMIT 1
+2020-07-09 00:15:10,508 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:15:10,508 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Comedy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Comedy'
+    ) LIMIT 1
+2020-07-09 00:15:10,509 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:15:10,510 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-09 00:15:10,510 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:15:10,511 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-09 00:15:10,512 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:15:10,512 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Family', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Family'
+    ) LIMIT 1
+2020-07-09 00:15:10,513 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:15:10,513 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Fantasy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Fantasy'
+    ) LIMIT 1
+2020-07-09 00:15:10,514 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:15:10,515 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-09 00:15:10,515 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:15:10,516 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Music', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Music'
+    ) LIMIT 1
+2020-07-09 00:15:10,517 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:15:10,517 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Musical', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Musical'
+    ) LIMIT 1
+2020-07-09 00:15:10,518 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:15:10,518 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Romance', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Romance'
+    ) LIMIT 1
+2020-07-09 00:15:10,519 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:15:10,520 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Thriller', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Thriller'
+    ) LIMIT 1
+2020-07-09 00:15:10,520 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:15:10,521 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'War', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'War'
+    ) LIMIT 1
+2020-07-09 00:15:10,522 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:15:10,522 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-09 00:15:10,523 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:15:10,523 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-09 00:15:10,524 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:15:10,525 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-09 00:15:10,525 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:15:10,526 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-09 00:15:10,527 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:15:10,527 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-09 00:15:10,528 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:15:10,528 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Mini-Series', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Mini-Series'
+    ) LIMIT 1
+2020-07-09 00:15:10,529 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:15:10,529 - root.plexdata - INFO - Success executing the query to update all 20 TV and Movie genres.
+2020-07-09 00:16:17,795 - root.plexdata - DEBUG - Path to this application: /home/ananchev/ifc-plex-stalker
+2020-07-09 00:16:17,795 - root.plexdata - DEBUG - Using interface db path: /home/ananchev/ifc-plex-stalker/interface.db
+2020-07-09 00:16:17,795 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-09 00:16:17,795 - root.plexdata - DEBUG - Using plex metadata folder path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-09 00:16:17,796 - root.plexdata - DEBUG - Using stalker database stalker_db on 192.168.2.72, connected as stalker user: 
+2020-07-09 00:16:17,804 - root.plexdata - INFO - success opening plex database connection
+2020-07-09 00:16:17,805 - root.plexdata - INFO - success opening ifc database connection
+2020-07-09 00:16:17,812 - root.plexdata - INFO - success opening stalker database connection
+2020-07-09 00:16:17,812 - root.plexdata - DEBUG - Query to execute:
+	SELECT DISTINCT tags_genre, library_section_id
+    FROM metadata_items
+    WHERE library_section_id IN (2, 3);
+2020-07-09 00:16:17,968 - root.plexdata - DEBUG - 28 rows from plex database returned.
+2020-07-09 00:16:17,969 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-09 00:16:17,970 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:16:17,971 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-09 00:16:17,971 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:16:17,972 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Biography', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Biography'
+    ) LIMIT 1
+2020-07-09 00:16:17,973 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:16:17,973 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Comedy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Comedy'
+    ) LIMIT 1
+2020-07-09 00:16:17,974 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:16:17,974 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-09 00:16:17,975 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:16:17,976 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-09 00:16:17,976 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:16:17,977 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Family', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Family'
+    ) LIMIT 1
+2020-07-09 00:16:17,978 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:16:17,978 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Fantasy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Fantasy'
+    ) LIMIT 1
+2020-07-09 00:16:17,979 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:16:17,979 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-09 00:16:17,980 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:16:17,981 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Music', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Music'
+    ) LIMIT 1
+2020-07-09 00:16:17,981 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:16:17,982 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Musical', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Musical'
+    ) LIMIT 1
+2020-07-09 00:16:17,983 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:16:17,983 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Romance', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Romance'
+    ) LIMIT 1
+2020-07-09 00:16:17,984 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:16:17,985 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Thriller', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Thriller'
+    ) LIMIT 1
+2020-07-09 00:16:17,985 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:16:17,986 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'War', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'War'
+    ) LIMIT 1
+2020-07-09 00:16:17,987 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:16:17,988 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-09 00:16:17,988 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:16:17,989 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-09 00:16:17,989 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:16:17,990 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-09 00:16:17,991 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:16:17,991 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-09 00:16:17,992 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:16:17,993 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-09 00:16:17,993 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:16:17,994 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Mini-Series', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Mini-Series'
+    ) LIMIT 1
+2020-07-09 00:16:17,994 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:16:17,995 - root.plexdata - INFO - Success executing the query to update all 20 TV and Movie genres.
+2020-07-09 00:21:23,054 - root.plexdata - DEBUG - Path to this application: /home/ananchev/ifc-plex-stalker
+2020-07-09 00:21:23,054 - root.plexdata - DEBUG - Using interface db path: /home/ananchev/ifc-plex-stalker/interface.db
+2020-07-09 00:21:23,054 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-09 00:21:23,054 - root.plexdata - DEBUG - Using plex metadata folder path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-09 00:21:23,055 - root.plexdata - DEBUG - Using stalker database stalker_db on 192.168.2.72, connected as stalker user: 
+2020-07-09 00:21:23,064 - root.plexdata - INFO - success opening plex database connection
+2020-07-09 00:21:23,064 - root.plexdata - INFO - success opening ifc database connection
+2020-07-09 00:21:23,072 - root.plexdata - INFO - success opening stalker database connection
+2020-07-09 00:21:23,072 - root.plexdata - DEBUG - Query to execute:
+	SELECT DISTINCT tags_genre, library_section_id
+    FROM metadata_items
+    WHERE library_section_id IN (2, 3);
+2020-07-09 00:21:23,223 - root.plexdata - DEBUG - 28 rows from plex database returned.
+2020-07-09 00:21:23,224 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-09 00:21:23,225 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:21:23,226 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-09 00:21:23,226 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:21:23,227 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Biography', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Biography'
+    ) LIMIT 1
+2020-07-09 00:21:23,228 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:21:23,228 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Comedy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Comedy'
+    ) LIMIT 1
+2020-07-09 00:21:23,230 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:21:23,230 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-09 00:21:23,231 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:21:23,232 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-09 00:21:23,233 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:21:23,234 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Family', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Family'
+    ) LIMIT 1
+2020-07-09 00:21:23,234 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:21:23,235 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Fantasy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Fantasy'
+    ) LIMIT 1
+2020-07-09 00:21:23,236 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:21:23,237 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-09 00:21:23,237 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:21:23,238 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Music', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Music'
+    ) LIMIT 1
+2020-07-09 00:21:23,238 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:21:23,239 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Musical', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Musical'
+    ) LIMIT 1
+2020-07-09 00:21:23,240 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:21:23,240 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Romance', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Romance'
+    ) LIMIT 1
+2020-07-09 00:21:23,241 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:21:23,241 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Thriller', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Thriller'
+    ) LIMIT 1
+2020-07-09 00:21:23,242 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:21:23,243 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'War', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'War'
+    ) LIMIT 1
+2020-07-09 00:21:23,243 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:21:23,244 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-09 00:21:23,244 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:21:23,245 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-09 00:21:23,246 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:21:23,246 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-09 00:21:23,247 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:21:23,247 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-09 00:21:23,248 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:21:23,249 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-09 00:21:23,250 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:21:23,250 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Mini-Series', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Mini-Series'
+    ) LIMIT 1
+2020-07-09 00:21:23,251 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:21:23,251 - root.plexdata - INFO - Success executing the query to update all 20 TV and Movie genres.
+2020-07-09 00:21:59,380 - root.plexdata - DEBUG - Path to this application: /home/ananchev/ifc-plex-stalker
+2020-07-09 00:21:59,381 - root.plexdata - DEBUG - Using interface db path: /home/ananchev/ifc-plex-stalker/interface.db
+2020-07-09 00:21:59,381 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-09 00:21:59,381 - root.plexdata - DEBUG - Using plex metadata folder path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-09 00:21:59,381 - root.plexdata - DEBUG - Using stalker database stalker_db on 192.168.2.72, connected as stalker user: 
+2020-07-09 00:21:59,389 - root.plexdata - INFO - success opening plex database connection
+2020-07-09 00:21:59,389 - root.plexdata - INFO - success opening ifc database connection
+2020-07-09 00:21:59,397 - root.plexdata - INFO - success opening stalker database connection
+2020-07-09 00:21:59,397 - root.plexdata - DEBUG - Query to execute:
+	SELECT DISTINCT tags_genre, library_section_id
+    FROM metadata_items
+    WHERE library_section_id IN (2, 3);
+2020-07-09 00:21:59,531 - root.plexdata - DEBUG - 28 rows from plex database returned.
+2020-07-09 00:21:59,533 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-09 00:21:59,534 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:21:59,536 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-09 00:21:59,537 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:21:59,538 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Biography', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Biography'
+    ) LIMIT 1
+2020-07-09 00:21:59,541 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 00:21:59,542 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Comedy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Comedy'
+    ) LIMIT 1
+2020-07-09 00:21:59,543 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.

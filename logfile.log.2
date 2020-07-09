@@ -1,0 +1,1741 @@
+2020-07-09 21:27:45,459 - root.plexdata - DEBUG - 28 rows from plex database returned.
+2020-07-09 21:27:45,461 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-09 21:27:45,462 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:27:45,462 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-09 21:27:45,465 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:27:45,466 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Biography', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Biography'
+    ) LIMIT 1
+2020-07-09 21:27:45,467 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:27:45,467 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Comedy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Comedy'
+    ) LIMIT 1
+2020-07-09 21:27:45,468 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:27:45,470 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-09 21:27:45,470 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:27:45,471 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-09 21:27:45,472 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:27:45,472 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Family', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Family'
+    ) LIMIT 1
+2020-07-09 21:27:45,473 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:27:45,473 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Fantasy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Fantasy'
+    ) LIMIT 1
+2020-07-09 21:27:45,474 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:27:45,474 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-09 21:27:45,475 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:27:45,476 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Music', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Music'
+    ) LIMIT 1
+2020-07-09 21:27:45,476 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:27:45,478 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Musical', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Musical'
+    ) LIMIT 1
+2020-07-09 21:27:45,478 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:27:45,479 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Romance', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Romance'
+    ) LIMIT 1
+2020-07-09 21:27:45,480 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:27:45,481 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Thriller', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Thriller'
+    ) LIMIT 1
+2020-07-09 21:27:45,481 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:27:45,482 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'War', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'War'
+    ) LIMIT 1
+2020-07-09 21:27:45,482 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:27:45,483 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-09 21:27:45,484 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:27:45,484 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-09 21:27:45,485 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:27:45,486 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-09 21:27:45,486 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:27:45,487 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-09 21:27:45,488 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:27:45,488 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-09 21:27:45,489 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:27:45,490 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Mini-Series', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Mini-Series'
+    ) LIMIT 1
+2020-07-09 21:27:45,491 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:27:45,491 - root.plexdata - INFO - Success executing the query to update all 20 TV and Movie genres.
+2020-07-09 21:27:45,491 - root.plexdata - DEBUG - Query to execute:
+	SELECT 
+        media_items.id AS media_id,
+        metadata_item_id AS metadata_id,
+        CAST(strftime('%s', metadata_items.updated_at) AS INTEGER) AS media_last_update,
+        CAST(strftime('%s', media_items.updated_at) AS INTEGER) AS metadata_last_update
+    FROM media_items
+    INNER JOIN metadata_items
+        ON media_items.metadata_item_id = metadata_items.id
+    WHERE
+        media_items.library_section_id IN (2, 3) 
+        AND
+        media_id IN (9415, 9557);
+2020-07-09 21:27:45,494 - root.plexdata - DEBUG - 2 rows from plex database returned.
+2020-07-09 21:27:45,494 - root.plexdata - DEBUG - Query to execute:
+	REPLACE
+        INTO ifc_media(plex_media_id, plex_metadata_item_id,plex_media_last_update,plex_metadata_last_update)
+        VALUES(9415, 10533, 1593469440, 1536430128);
+2020-07-09 21:27:45,502 - root.plexdata - DEBUG - 1 rows in ifc database affected by the execute call.
+2020-07-09 21:27:45,502 - root.plexdata - DEBUG - Query to execute:
+	REPLACE
+        INTO ifc_media(plex_media_id, plex_metadata_item_id,plex_media_last_update,plex_metadata_last_update)
+        VALUES(9557, 10585, 1593469428, 1536534315);
+2020-07-09 21:27:45,507 - root.plexdata - DEBUG - 1 rows in ifc database affected by the execute call.
+2020-07-09 21:27:45,507 - root.plexdata - DEBUG - Query to execute:
+	SELECT plex_media_id FROM ifc_media;
+2020-07-09 21:27:45,508 - root.plexdata - DEBUG - 3 rows from ifc database returned.
+2020-07-09 21:28:46,088 - root.plexdata - DEBUG - Path to this application: /home/ananchev/ifc-plex-stalker
+2020-07-09 21:28:46,089 - root.plexdata - DEBUG - Using interface db path: /home/ananchev/ifc-plex-stalker/interface.db
+2020-07-09 21:28:46,089 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-09 21:28:46,089 - root.plexdata - DEBUG - Using plex metadata folder path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-09 21:28:46,089 - root.plexdata - DEBUG - Using stalker database stalker_db on 192.168.2.72, connected as stalker user: 
+2020-07-09 21:28:46,096 - root.plexdata - INFO - success opening plex database connection
+2020-07-09 21:28:46,096 - root.plexdata - INFO - success opening ifc database connection
+2020-07-09 21:28:46,103 - root.plexdata - INFO - success opening stalker database connection
+2020-07-09 21:28:46,103 - root.plexdata - DEBUG - Query to execute:
+	SELECT DISTINCT tags_genre, library_section_id
+    FROM metadata_items
+    WHERE library_section_id IN (2, 3);
+2020-07-09 21:28:46,270 - root.plexdata - DEBUG - 28 rows from plex database returned.
+2020-07-09 21:28:46,272 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-09 21:28:46,273 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:28:46,274 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-09 21:28:46,274 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:28:46,275 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Biography', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Biography'
+    ) LIMIT 1
+2020-07-09 21:28:46,276 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:28:46,277 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Comedy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Comedy'
+    ) LIMIT 1
+2020-07-09 21:28:46,278 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:28:46,278 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-09 21:28:46,279 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:28:46,280 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-09 21:28:46,281 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:28:46,282 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Family', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Family'
+    ) LIMIT 1
+2020-07-09 21:28:46,282 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:28:46,283 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Fantasy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Fantasy'
+    ) LIMIT 1
+2020-07-09 21:28:46,284 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:28:46,284 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-09 21:28:46,285 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:28:46,285 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Music', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Music'
+    ) LIMIT 1
+2020-07-09 21:28:46,286 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:28:46,286 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Musical', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Musical'
+    ) LIMIT 1
+2020-07-09 21:28:46,287 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:28:46,287 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Romance', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Romance'
+    ) LIMIT 1
+2020-07-09 21:28:46,288 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:28:46,289 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Thriller', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Thriller'
+    ) LIMIT 1
+2020-07-09 21:28:46,290 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:28:46,290 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'War', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'War'
+    ) LIMIT 1
+2020-07-09 21:28:46,291 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:28:46,291 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-09 21:28:46,292 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:28:46,292 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-09 21:28:46,293 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:28:46,294 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-09 21:28:46,294 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:28:46,295 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-09 21:28:46,296 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:28:46,296 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-09 21:28:46,297 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:28:46,297 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Mini-Series', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Mini-Series'
+    ) LIMIT 1
+2020-07-09 21:28:46,298 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:28:46,298 - root.plexdata - INFO - Success executing the query to update all 20 TV and Movie genres.
+2020-07-09 21:28:46,298 - root.plexdata - DEBUG - Query to execute:
+	SELECT 
+        media_items.id AS media_id,
+        metadata_item_id AS metadata_id,
+        CAST(strftime('%s', metadata_items.updated_at) AS INTEGER) AS media_last_update,
+        CAST(strftime('%s', media_items.updated_at) AS INTEGER) AS metadata_last_update
+    FROM media_items
+    INNER JOIN metadata_items
+        ON media_items.metadata_item_id = metadata_items.id
+    WHERE
+        media_items.library_section_id IN (2, 3) 
+        AND
+        media_id IN (9415, 9557);
+2020-07-09 21:28:46,301 - root.plexdata - DEBUG - 2 rows from plex database returned.
+2020-07-09 21:28:46,301 - root.plexdata - DEBUG - Query to execute:
+	REPLACE
+        INTO ifc_media(plex_media_id, plex_metadata_item_id,plex_media_last_update,plex_metadata_last_update)
+        VALUES(9415, 10533, 1593469440, 1536430128);
+2020-07-09 21:28:46,307 - root.plexdata - DEBUG - 1 rows in ifc database affected by the execute call.
+2020-07-09 21:28:46,307 - root.plexdata - DEBUG - Query to execute:
+	REPLACE
+        INTO ifc_media(plex_media_id, plex_metadata_item_id,plex_media_last_update,plex_metadata_last_update)
+        VALUES(9557, 10585, 1593469428, 1536534315);
+2020-07-09 21:28:46,310 - root.plexdata - DEBUG - 1 rows in ifc database affected by the execute call.
+2020-07-09 21:28:46,310 - root.plexdata - DEBUG - Query to execute:
+	SELECT plex_media_id FROM ifc_media;
+2020-07-09 21:28:46,310 - root.plexdata - DEBUG - 3 rows from ifc database returned.
+2020-07-09 21:29:27,744 - root.plexdata - DEBUG - Path to this application: /home/ananchev/ifc-plex-stalker
+2020-07-09 21:29:27,744 - root.plexdata - DEBUG - Using interface db path: /home/ananchev/ifc-plex-stalker/interface.db
+2020-07-09 21:29:27,744 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-09 21:29:27,744 - root.plexdata - DEBUG - Using plex metadata folder path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-09 21:29:27,744 - root.plexdata - DEBUG - Using stalker database stalker_db on 192.168.2.72, connected as stalker user: 
+2020-07-09 21:29:27,756 - root.plexdata - INFO - success opening plex database connection
+2020-07-09 21:29:27,756 - root.plexdata - INFO - success opening ifc database connection
+2020-07-09 21:29:27,763 - root.plexdata - INFO - success opening stalker database connection
+2020-07-09 21:29:27,764 - root.plexdata - DEBUG - Query to execute:
+	SELECT DISTINCT tags_genre, library_section_id
+    FROM metadata_items
+    WHERE library_section_id IN (2, 3);
+2020-07-09 21:29:27,937 - root.plexdata - DEBUG - 28 rows from plex database returned.
+2020-07-09 21:29:27,938 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-09 21:29:27,939 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:29:27,940 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-09 21:29:27,941 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:29:27,942 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Biography', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Biography'
+    ) LIMIT 1
+2020-07-09 21:29:27,942 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:29:27,943 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Comedy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Comedy'
+    ) LIMIT 1
+2020-07-09 21:29:27,945 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:29:27,946 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-09 21:29:27,948 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:29:27,948 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-09 21:29:27,949 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:29:27,950 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Family', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Family'
+    ) LIMIT 1
+2020-07-09 21:29:27,950 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:29:27,951 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Fantasy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Fantasy'
+    ) LIMIT 1
+2020-07-09 21:29:27,952 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:29:27,953 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-09 21:29:27,954 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:29:27,955 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Music', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Music'
+    ) LIMIT 1
+2020-07-09 21:29:27,956 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:29:27,957 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Musical', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Musical'
+    ) LIMIT 1
+2020-07-09 21:29:27,958 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:29:27,958 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Romance', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Romance'
+    ) LIMIT 1
+2020-07-09 21:29:27,959 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:29:27,960 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Thriller', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Thriller'
+    ) LIMIT 1
+2020-07-09 21:29:27,961 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:29:27,961 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'War', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'War'
+    ) LIMIT 1
+2020-07-09 21:29:27,962 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:29:27,962 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-09 21:29:27,963 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:29:27,964 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-09 21:29:27,964 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:29:27,965 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-09 21:29:27,966 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:29:27,966 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-09 21:29:27,967 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:29:27,967 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-09 21:29:27,968 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:29:27,969 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Mini-Series', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Mini-Series'
+    ) LIMIT 1
+2020-07-09 21:29:27,970 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:29:27,970 - root.plexdata - INFO - Success executing the query to update all 20 TV and Movie genres.
+2020-07-09 21:29:27,970 - root.plexdata - DEBUG - Query to execute:
+	SELECT 
+        media_items.id AS media_id,
+        metadata_item_id AS metadata_id,
+        CAST(strftime('%s', metadata_items.updated_at) AS INTEGER) AS media_last_update,
+        CAST(strftime('%s', media_items.updated_at) AS INTEGER) AS metadata_last_update
+    FROM media_items
+    INNER JOIN metadata_items
+        ON media_items.metadata_item_id = metadata_items.id
+    WHERE
+        media_items.library_section_id IN (2, 3) 
+        AND
+        media_id IN (9415, 9557);
+2020-07-09 21:29:27,973 - root.plexdata - DEBUG - 2 rows from plex database returned.
+2020-07-09 21:29:27,973 - root.plexdata - DEBUG - Query to execute:
+	REPLACE
+        INTO ifc_media(plex_media_id, plex_metadata_item_id,plex_media_last_update,plex_metadata_last_update)
+        VALUES(9415, 10533, 1593469440, 1536430128);
+2020-07-09 21:29:27,991 - root.plexdata - DEBUG - 1 rows in ifc database affected by the execute call.
+2020-07-09 21:29:27,991 - root.plexdata - DEBUG - Query to execute:
+	REPLACE
+        INTO ifc_media(plex_media_id, plex_metadata_item_id,plex_media_last_update,plex_metadata_last_update)
+        VALUES(9557, 10585, 1593469428, 1536534315);
+2020-07-09 21:29:27,999 - root.plexdata - DEBUG - 1 rows in ifc database affected by the execute call.
+2020-07-09 21:29:27,999 - root.plexdata - DEBUG - Query to execute:
+	SELECT plex_media_id FROM ifc_media;
+2020-07-09 21:29:28,000 - root.plexdata - DEBUG - 3 rows from ifc database returned.
+2020-07-09 21:30:52,817 - root.plexdata - DEBUG - Path to this application: /home/ananchev/ifc-plex-stalker
+2020-07-09 21:30:52,818 - root.plexdata - DEBUG - Using interface db path: /home/ananchev/ifc-plex-stalker/interface.db
+2020-07-09 21:30:52,818 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-09 21:30:52,818 - root.plexdata - DEBUG - Using plex metadata folder path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-09 21:30:52,818 - root.plexdata - DEBUG - Using stalker database stalker_db on 192.168.2.72, connected as stalker user: 
+2020-07-09 21:30:52,826 - root.plexdata - INFO - success opening plex database connection
+2020-07-09 21:30:52,826 - root.plexdata - INFO - success opening ifc database connection
+2020-07-09 21:30:52,832 - root.plexdata - INFO - success opening stalker database connection
+2020-07-09 21:30:52,833 - root.plexdata - DEBUG - Query to execute:
+	SELECT DISTINCT tags_genre, library_section_id
+    FROM metadata_items
+    WHERE library_section_id IN (2, 3);
+2020-07-09 21:30:53,009 - root.plexdata - DEBUG - 28 rows from plex database returned.
+2020-07-09 21:30:53,010 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-09 21:30:53,011 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:30:53,012 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-09 21:30:53,013 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:30:53,013 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Biography', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Biography'
+    ) LIMIT 1
+2020-07-09 21:30:53,014 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:30:53,014 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Comedy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Comedy'
+    ) LIMIT 1
+2020-07-09 21:30:53,015 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:30:53,016 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-09 21:30:53,016 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:30:53,017 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-09 21:30:53,018 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:30:53,018 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Family', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Family'
+    ) LIMIT 1
+2020-07-09 21:30:53,019 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:30:53,019 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Fantasy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Fantasy'
+    ) LIMIT 1
+2020-07-09 21:30:53,020 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:30:53,020 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-09 21:30:53,021 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:30:53,022 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Music', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Music'
+    ) LIMIT 1
+2020-07-09 21:30:53,022 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:30:53,023 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Musical', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Musical'
+    ) LIMIT 1
+2020-07-09 21:30:53,024 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:30:53,024 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Romance', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Romance'
+    ) LIMIT 1
+2020-07-09 21:30:53,025 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:30:53,026 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Thriller', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Thriller'
+    ) LIMIT 1
+2020-07-09 21:30:53,026 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:30:53,027 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'War', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'War'
+    ) LIMIT 1
+2020-07-09 21:30:53,028 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:30:53,028 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-09 21:30:53,029 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:30:53,030 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-09 21:30:53,031 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:30:53,031 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-09 21:30:53,032 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:30:53,032 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-09 21:30:53,033 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:30:53,034 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-09 21:30:53,035 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:30:53,035 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Mini-Series', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Mini-Series'
+    ) LIMIT 1
+2020-07-09 21:30:53,036 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:30:53,036 - root.plexdata - INFO - Success executing the query to update all 20 TV and Movie genres.
+2020-07-09 21:30:53,036 - root.plexdata - DEBUG - Query to execute:
+	SELECT 
+        media_items.id AS media_id,
+        metadata_item_id AS metadata_id,
+        CAST(strftime('%s', metadata_items.updated_at) AS INTEGER) AS media_last_update,
+        CAST(strftime('%s', media_items.updated_at) AS INTEGER) AS metadata_last_update
+    FROM media_items
+    INNER JOIN metadata_items
+        ON media_items.metadata_item_id = metadata_items.id
+    WHERE
+        media_items.library_section_id IN (2, 3) 
+        AND
+        media_id IN (9415, 9557);
+2020-07-09 21:30:53,039 - root.plexdata - DEBUG - 2 rows from plex database returned.
+2020-07-09 21:30:53,039 - root.plexdata - DEBUG - Query to execute:
+	REPLACE
+        INTO ifc_media(plex_media_id, plex_metadata_item_id,plex_media_last_update,plex_metadata_last_update)
+        VALUES(9415, 10533, 1593469440, 1536430128);
+2020-07-09 21:30:53,045 - root.plexdata - DEBUG - 1 rows in ifc database affected by the execute call.
+2020-07-09 21:30:53,046 - root.plexdata - DEBUG - Query to execute:
+	REPLACE
+        INTO ifc_media(plex_media_id, plex_metadata_item_id,plex_media_last_update,plex_metadata_last_update)
+        VALUES(9557, 10585, 1593469428, 1536534315);
+2020-07-09 21:30:53,048 - root.plexdata - DEBUG - 1 rows in ifc database affected by the execute call.
+2020-07-09 21:30:53,048 - root.plexdata - DEBUG - Query to execute:
+	SELECT plex_media_id FROM ifc_media;
+2020-07-09 21:30:53,049 - root.plexdata - DEBUG - 3 rows from ifc database returned.
+2020-07-09 21:32:03,703 - root.plexdata - DEBUG - Path to this application: /home/ananchev/ifc-plex-stalker
+2020-07-09 21:32:03,703 - root.plexdata - DEBUG - Using interface db path: /home/ananchev/ifc-plex-stalker/interface.db
+2020-07-09 21:32:03,705 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-09 21:32:03,705 - root.plexdata - DEBUG - Using plex metadata folder path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-09 21:32:03,706 - root.plexdata - DEBUG - Using stalker database stalker_db on 192.168.2.72, connected as stalker user: 
+2020-07-09 21:32:03,712 - root.plexdata - INFO - success opening plex database connection
+2020-07-09 21:32:03,713 - root.plexdata - INFO - success opening ifc database connection
+2020-07-09 21:32:03,720 - root.plexdata - INFO - success opening stalker database connection
+2020-07-09 21:32:03,720 - root.plexdata - DEBUG - Query to execute:
+	SELECT DISTINCT tags_genre, library_section_id
+    FROM metadata_items
+    WHERE library_section_id IN (2, 3);
+2020-07-09 21:32:03,920 - root.plexdata - DEBUG - 28 rows from plex database returned.
+2020-07-09 21:32:03,921 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-09 21:32:03,922 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:03,922 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-09 21:32:03,923 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:03,924 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Biography', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Biography'
+    ) LIMIT 1
+2020-07-09 21:32:03,924 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:03,925 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Comedy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Comedy'
+    ) LIMIT 1
+2020-07-09 21:32:03,926 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:03,926 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-09 21:32:03,927 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:03,928 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-09 21:32:03,929 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:03,929 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Family', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Family'
+    ) LIMIT 1
+2020-07-09 21:32:03,930 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:03,930 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Fantasy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Fantasy'
+    ) LIMIT 1
+2020-07-09 21:32:03,931 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:03,932 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-09 21:32:03,932 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:03,933 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Music', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Music'
+    ) LIMIT 1
+2020-07-09 21:32:03,934 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:03,934 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Musical', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Musical'
+    ) LIMIT 1
+2020-07-09 21:32:03,935 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:03,936 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Romance', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Romance'
+    ) LIMIT 1
+2020-07-09 21:32:03,936 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:03,937 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Thriller', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Thriller'
+    ) LIMIT 1
+2020-07-09 21:32:03,938 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:03,938 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'War', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'War'
+    ) LIMIT 1
+2020-07-09 21:32:03,939 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:03,940 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-09 21:32:03,940 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:03,941 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-09 21:32:03,942 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:03,942 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-09 21:32:03,943 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:03,943 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-09 21:32:03,944 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:03,944 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-09 21:32:03,945 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:03,946 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Mini-Series', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Mini-Series'
+    ) LIMIT 1
+2020-07-09 21:32:03,946 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:03,947 - root.plexdata - INFO - Success executing the query to update all 20 TV and Movie genres.
+2020-07-09 21:32:03,947 - root.plexdata - DEBUG - Query to execute:
+	SELECT 
+        media_items.id AS media_id,
+        metadata_item_id AS metadata_id,
+        CAST(strftime('%s', metadata_items.updated_at) AS INTEGER) AS media_last_update,
+        CAST(strftime('%s', media_items.updated_at) AS INTEGER) AS metadata_last_update
+    FROM media_items
+    INNER JOIN metadata_items
+        ON media_items.metadata_item_id = metadata_items.id
+    WHERE
+        media_items.library_section_id IN (2, 3) 
+        AND
+        media_id IN (9415, 9557);
+2020-07-09 21:32:03,950 - root.plexdata - DEBUG - 2 rows from plex database returned.
+2020-07-09 21:32:03,950 - root.plexdata - DEBUG - Query to execute:
+	REPLACE
+        INTO ifc_media(plex_media_id, plex_metadata_item_id,plex_media_last_update,plex_metadata_last_update)
+        VALUES(9415, 10533, 1593469440, 1536430128);
+2020-07-09 21:32:03,953 - root.plexdata - DEBUG - 1 rows in ifc database affected by the execute call.
+2020-07-09 21:32:03,953 - root.plexdata - DEBUG - Query to execute:
+	REPLACE
+        INTO ifc_media(plex_media_id, plex_metadata_item_id,plex_media_last_update,plex_metadata_last_update)
+        VALUES(9557, 10585, 1593469428, 1536534315);
+2020-07-09 21:32:03,956 - root.plexdata - DEBUG - 1 rows in ifc database affected by the execute call.
+2020-07-09 21:32:03,956 - root.plexdata - DEBUG - Query to execute:
+	SELECT plex_media_id, plex_metadata_item_id FROM ifc_media;
+2020-07-09 21:32:03,956 - root.plexdata - DEBUG - 3 rows from ifc database returned.
+2020-07-09 21:32:51,734 - root.plexdata - DEBUG - Path to this application: /home/ananchev/ifc-plex-stalker
+2020-07-09 21:32:51,735 - root.plexdata - DEBUG - Using interface db path: /home/ananchev/ifc-plex-stalker/interface.db
+2020-07-09 21:32:51,735 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-09 21:32:51,736 - root.plexdata - DEBUG - Using plex metadata folder path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-09 21:32:51,736 - root.plexdata - DEBUG - Using stalker database stalker_db on 192.168.2.72, connected as stalker user: 
+2020-07-09 21:32:51,743 - root.plexdata - INFO - success opening plex database connection
+2020-07-09 21:32:51,744 - root.plexdata - INFO - success opening ifc database connection
+2020-07-09 21:32:51,750 - root.plexdata - INFO - success opening stalker database connection
+2020-07-09 21:32:51,750 - root.plexdata - DEBUG - Query to execute:
+	SELECT DISTINCT tags_genre, library_section_id
+    FROM metadata_items
+    WHERE library_section_id IN (2, 3);
+2020-07-09 21:32:51,920 - root.plexdata - DEBUG - 28 rows from plex database returned.
+2020-07-09 21:32:51,921 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-09 21:32:51,922 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:51,922 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-09 21:32:51,923 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:51,924 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Biography', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Biography'
+    ) LIMIT 1
+2020-07-09 21:32:51,924 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:51,925 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Comedy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Comedy'
+    ) LIMIT 1
+2020-07-09 21:32:51,926 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:51,927 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-09 21:32:51,927 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:51,928 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-09 21:32:51,928 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:51,929 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Family', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Family'
+    ) LIMIT 1
+2020-07-09 21:32:51,930 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:51,931 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Fantasy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Fantasy'
+    ) LIMIT 1
+2020-07-09 21:32:51,931 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:51,932 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-09 21:32:51,932 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:51,933 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Music', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Music'
+    ) LIMIT 1
+2020-07-09 21:32:51,934 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:51,934 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Musical', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Musical'
+    ) LIMIT 1
+2020-07-09 21:32:51,935 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:51,936 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Romance', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Romance'
+    ) LIMIT 1
+2020-07-09 21:32:51,936 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:51,937 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Thriller', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Thriller'
+    ) LIMIT 1
+2020-07-09 21:32:51,937 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:51,938 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'War', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'War'
+    ) LIMIT 1
+2020-07-09 21:32:51,938 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:51,939 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-09 21:32:51,940 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:51,940 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-09 21:32:51,941 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:51,941 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-09 21:32:51,942 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:51,942 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-09 21:32:51,943 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:51,944 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-09 21:32:51,944 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:51,945 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Mini-Series', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Mini-Series'
+    ) LIMIT 1
+2020-07-09 21:32:51,946 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:32:51,946 - root.plexdata - INFO - Success executing the query to update all 20 TV and Movie genres.
+2020-07-09 21:32:51,946 - root.plexdata - DEBUG - Query to execute:
+	SELECT 
+        media_items.id AS media_id,
+        metadata_item_id AS metadata_id,
+        CAST(strftime('%s', metadata_items.updated_at) AS INTEGER) AS media_last_update,
+        CAST(strftime('%s', media_items.updated_at) AS INTEGER) AS metadata_last_update
+    FROM media_items
+    INNER JOIN metadata_items
+        ON media_items.metadata_item_id = metadata_items.id
+    WHERE
+        media_items.library_section_id IN (2, 3) 
+        AND
+        media_id IN (9415, 9557);
+2020-07-09 21:32:51,949 - root.plexdata - DEBUG - 2 rows from plex database returned.
+2020-07-09 21:32:51,949 - root.plexdata - DEBUG - Query to execute:
+	REPLACE
+        INTO ifc_media(plex_media_id, plex_metadata_item_id,plex_media_last_update,plex_metadata_last_update)
+        VALUES(9415, 10533, 1593469440, 1536430128);
+2020-07-09 21:32:51,954 - root.plexdata - DEBUG - 1 rows in ifc database affected by the execute call.
+2020-07-09 21:32:51,954 - root.plexdata - DEBUG - Query to execute:
+	REPLACE
+        INTO ifc_media(plex_media_id, plex_metadata_item_id,plex_media_last_update,plex_metadata_last_update)
+        VALUES(9557, 10585, 1593469428, 1536534315);
+2020-07-09 21:32:51,963 - root.plexdata - DEBUG - 1 rows in ifc database affected by the execute call.
+2020-07-09 21:32:51,964 - root.plexdata - DEBUG - Query to execute:
+	SELECT plex_media_id, plex_metadata_item_id FROM ifc_media;
+2020-07-09 21:32:51,964 - root.plexdata - DEBUG - 3 rows from ifc database returned.
+2020-07-09 21:34:00,213 - root.plexdata - DEBUG - Path to this application: /home/ananchev/ifc-plex-stalker
+2020-07-09 21:34:00,213 - root.plexdata - DEBUG - Using interface db path: /home/ananchev/ifc-plex-stalker/interface.db
+2020-07-09 21:34:00,213 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-09 21:34:00,213 - root.plexdata - DEBUG - Using plex metadata folder path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-09 21:34:00,214 - root.plexdata - DEBUG - Using stalker database stalker_db on 192.168.2.72, connected as stalker user: 
+2020-07-09 21:34:00,221 - root.plexdata - INFO - success opening plex database connection
+2020-07-09 21:34:00,221 - root.plexdata - INFO - success opening ifc database connection
+2020-07-09 21:34:00,228 - root.plexdata - INFO - success opening stalker database connection
+2020-07-09 21:34:00,228 - root.plexdata - DEBUG - Query to execute:
+	SELECT DISTINCT tags_genre, library_section_id
+    FROM metadata_items
+    WHERE library_section_id IN (2, 3);
+2020-07-09 21:34:00,408 - root.plexdata - DEBUG - 28 rows from plex database returned.
+2020-07-09 21:34:00,409 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-09 21:34:00,411 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:34:00,411 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-09 21:34:00,412 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:34:00,413 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Biography', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Biography'
+    ) LIMIT 1
+2020-07-09 21:34:00,414 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:34:00,414 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Comedy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Comedy'
+    ) LIMIT 1
+2020-07-09 21:34:00,415 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:34:00,416 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-09 21:34:00,417 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:34:00,417 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-09 21:34:00,425 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:34:00,426 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Family', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Family'
+    ) LIMIT 1
+2020-07-09 21:34:00,427 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:34:00,427 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Fantasy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Fantasy'
+    ) LIMIT 1
+2020-07-09 21:34:00,428 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:34:00,429 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-09 21:34:00,429 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:34:00,430 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Music', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Music'
+    ) LIMIT 1
+2020-07-09 21:34:00,431 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:34:00,432 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Musical', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Musical'
+    ) LIMIT 1
+2020-07-09 21:34:00,433 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:34:00,436 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Romance', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Romance'
+    ) LIMIT 1
+2020-07-09 21:34:00,438 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:34:00,439 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Thriller', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Thriller'
+    ) LIMIT 1
+2020-07-09 21:34:00,440 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:34:00,440 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'War', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'War'
+    ) LIMIT 1
+2020-07-09 21:34:00,441 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:34:00,441 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-09 21:34:00,442 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:34:00,442 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-09 21:34:00,443 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:34:00,444 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-09 21:34:00,444 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:34:00,445 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-09 21:34:00,446 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:34:00,446 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-09 21:34:00,447 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:34:00,448 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Mini-Series', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Mini-Series'
+    ) LIMIT 1
+2020-07-09 21:34:00,448 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:34:00,449 - root.plexdata - INFO - Success executing the query to update all 20 TV and Movie genres.
+2020-07-09 21:34:00,449 - root.plexdata - DEBUG - Query to execute:
+	SELECT 
+        media_items.id AS media_id,
+        metadata_item_id AS metadata_id,
+        CAST(strftime('%s', metadata_items.updated_at) AS INTEGER) AS media_last_update,
+        CAST(strftime('%s', media_items.updated_at) AS INTEGER) AS metadata_last_update
+    FROM media_items
+    INNER JOIN metadata_items
+        ON media_items.metadata_item_id = metadata_items.id
+    WHERE
+        media_items.library_section_id IN (2, 3) 
+        AND
+        media_id IN (9415, 9557);
+2020-07-09 21:34:00,451 - root.plexdata - DEBUG - 2 rows from plex database returned.
+2020-07-09 21:34:00,452 - root.plexdata - DEBUG - Query to execute:
+	REPLACE
+        INTO ifc_media(plex_media_id, plex_metadata_item_id,plex_media_last_update,plex_metadata_last_update)
+        VALUES(9415, 10533, 1593469440, 1536430128);
+2020-07-09 21:34:00,459 - root.plexdata - DEBUG - 1 rows in ifc database affected by the execute call.
+2020-07-09 21:34:00,459 - root.plexdata - DEBUG - Query to execute:
+	REPLACE
+        INTO ifc_media(plex_media_id, plex_metadata_item_id,plex_media_last_update,plex_metadata_last_update)
+        VALUES(9557, 10585, 1593469428, 1536534315);
+2020-07-09 21:34:00,462 - root.plexdata - DEBUG - 1 rows in ifc database affected by the execute call.
+2020-07-09 21:34:00,462 - root.plexdata - DEBUG - Query to execute:
+	SELECT plex_media_id, plex_metadata_item_id FROM ifc_media;
+2020-07-09 21:34:00,462 - root.plexdata - DEBUG - 3 rows from ifc database returned.
+2020-07-09 21:36:51,374 - root.plexdata - DEBUG - Path to this application: /home/ananchev/ifc-plex-stalker
+2020-07-09 21:36:51,375 - root.plexdata - DEBUG - Using interface db path: /home/ananchev/ifc-plex-stalker/interface.db
+2020-07-09 21:36:51,375 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-09 21:36:51,375 - root.plexdata - DEBUG - Using plex metadata folder path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-09 21:36:51,375 - root.plexdata - DEBUG - Using stalker database stalker_db on 192.168.2.72, connected as stalker user: 
+2020-07-09 21:36:51,383 - root.plexdata - INFO - success opening plex database connection
+2020-07-09 21:36:51,384 - root.plexdata - INFO - success opening ifc database connection
+2020-07-09 21:36:51,391 - root.plexdata - INFO - success opening stalker database connection
+2020-07-09 21:36:51,391 - root.plexdata - DEBUG - Query to execute:
+	SELECT DISTINCT tags_genre, library_section_id
+    FROM metadata_items
+    WHERE library_section_id IN (2, 3);
+2020-07-09 21:36:51,574 - root.plexdata - DEBUG - 28 rows from plex database returned.
+2020-07-09 21:36:51,575 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-09 21:36:51,576 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:36:51,576 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-09 21:36:51,577 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:36:51,578 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Biography', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Biography'
+    ) LIMIT 1
+2020-07-09 21:36:51,578 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:36:51,579 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Comedy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Comedy'
+    ) LIMIT 1
+2020-07-09 21:36:51,580 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:36:51,580 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-09 21:36:51,581 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:36:51,581 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-09 21:36:51,582 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:36:51,582 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Family', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Family'
+    ) LIMIT 1
+2020-07-09 21:36:51,583 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:36:51,583 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Fantasy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Fantasy'
+    ) LIMIT 1
+2020-07-09 21:36:51,584 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:36:51,585 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-09 21:36:51,586 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:36:51,586 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Music', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Music'
+    ) LIMIT 1
+2020-07-09 21:36:51,587 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:36:51,587 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Musical', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Musical'
+    ) LIMIT 1
+2020-07-09 21:36:51,588 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:36:51,589 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Romance', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Romance'
+    ) LIMIT 1
+2020-07-09 21:36:51,589 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:36:51,590 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Thriller', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Thriller'
+    ) LIMIT 1
+2020-07-09 21:36:51,591 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:36:51,591 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'War', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'War'
+    ) LIMIT 1
+2020-07-09 21:36:51,592 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:36:51,592 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-09 21:36:51,593 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:36:51,593 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-09 21:36:51,594 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:36:51,595 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-09 21:36:51,595 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:36:51,596 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-09 21:36:51,597 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:36:51,597 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-09 21:36:51,598 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:36:51,598 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Mini-Series', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Mini-Series'
+    ) LIMIT 1
+2020-07-09 21:36:51,599 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:36:51,607 - root.plexdata - INFO - Success executing the query to update all 20 TV and Movie genres.
+2020-07-09 21:36:51,607 - root.plexdata - DEBUG - Query to execute:
+	SELECT 
+        media_items.id AS media_id,
+        metadata_item_id AS metadata_id,
+        CAST(strftime('%s', metadata_items.updated_at) AS INTEGER) AS media_last_update,
+        CAST(strftime('%s', media_items.updated_at) AS INTEGER) AS metadata_last_update
+    FROM media_items
+    INNER JOIN metadata_items
+        ON media_items.metadata_item_id = metadata_items.id
+    WHERE
+        media_items.library_section_id IN (2, 3) 
+        AND
+        media_id IN (9415, 9557);
+2020-07-09 21:36:51,612 - root.plexdata - DEBUG - 2 rows from plex database returned.
+2020-07-09 21:36:51,612 - root.plexdata - DEBUG - Query to execute:
+	REPLACE
+        INTO ifc_media(plex_media_id, plex_metadata_item_id,plex_media_last_update,plex_metadata_last_update)
+        VALUES(9415, 10533, 1593469440, 1536430128);
+2020-07-09 21:36:51,619 - root.plexdata - DEBUG - 1 rows in ifc database affected by the execute call.
+2020-07-09 21:36:51,619 - root.plexdata - DEBUG - Query to execute:
+	REPLACE
+        INTO ifc_media(plex_media_id, plex_metadata_item_id,plex_media_last_update,plex_metadata_last_update)
+        VALUES(9557, 10585, 1593469428, 1536534315);
+2020-07-09 21:36:51,622 - root.plexdata - DEBUG - 1 rows in ifc database affected by the execute call.
+2020-07-09 21:36:51,622 - root.plexdata - DEBUG - Query to execute:
+	SELECT plex_media_id, plex_metadata_item_id FROM ifc_media;
+2020-07-09 21:36:51,622 - root.plexdata - DEBUG - 3 rows from ifc database returned.
+2020-07-09 21:37:49,952 - root.plexdata - DEBUG - Path to this application: /home/ananchev/ifc-plex-stalker
+2020-07-09 21:37:49,952 - root.plexdata - DEBUG - Using interface db path: /home/ananchev/ifc-plex-stalker/interface.db
+2020-07-09 21:37:49,952 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-09 21:37:49,952 - root.plexdata - DEBUG - Using plex metadata folder path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-09 21:37:49,953 - root.plexdata - DEBUG - Using stalker database stalker_db on 192.168.2.72, connected as stalker user: 
+2020-07-09 21:37:49,960 - root.plexdata - INFO - success opening plex database connection
+2020-07-09 21:37:49,961 - root.plexdata - INFO - success opening ifc database connection
+2020-07-09 21:37:49,967 - root.plexdata - INFO - success opening stalker database connection
+2020-07-09 21:37:49,967 - root.plexdata - DEBUG - Query to execute:
+	SELECT DISTINCT tags_genre, library_section_id
+    FROM metadata_items
+    WHERE library_section_id IN (2, 3);
+2020-07-09 21:37:50,143 - root.plexdata - DEBUG - 28 rows from plex database returned.
+2020-07-09 21:37:50,144 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-09 21:37:50,145 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:37:50,146 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-09 21:37:50,147 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:37:50,147 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Biography', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Biography'
+    ) LIMIT 1
+2020-07-09 21:37:50,148 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:37:50,149 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Comedy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Comedy'
+    ) LIMIT 1
+2020-07-09 21:37:50,150 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:37:50,150 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-09 21:37:50,151 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:37:50,152 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-09 21:37:50,152 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:37:50,153 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Family', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Family'
+    ) LIMIT 1
+2020-07-09 21:37:50,153 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:37:50,154 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Fantasy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Fantasy'
+    ) LIMIT 1
+2020-07-09 21:37:50,155 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:37:50,155 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-09 21:37:50,156 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:37:50,156 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Music', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Music'
+    ) LIMIT 1
+2020-07-09 21:37:50,157 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:37:50,157 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Musical', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Musical'
+    ) LIMIT 1
+2020-07-09 21:37:50,158 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:37:50,159 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Romance', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Romance'
+    ) LIMIT 1
+2020-07-09 21:37:50,160 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:37:50,160 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Thriller', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Thriller'
+    ) LIMIT 1
+2020-07-09 21:37:50,162 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:37:50,162 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'War', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'War'
+    ) LIMIT 1
+2020-07-09 21:37:50,163 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:37:50,164 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-09 21:37:50,164 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:37:50,165 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-09 21:37:50,165 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:37:50,166 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-09 21:37:50,167 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:37:50,176 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-09 21:37:50,177 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:37:50,179 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-09 21:37:50,181 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:37:50,182 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Mini-Series', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Mini-Series'
+    ) LIMIT 1
+2020-07-09 21:37:50,183 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:37:50,183 - root.plexdata - INFO - Success executing the query to update all 20 TV and Movie genres.
+2020-07-09 21:37:50,184 - root.plexdata - DEBUG - Query to execute:
+	SELECT 
+        media_items.id AS media_id,
+        metadata_item_id AS metadata_id,
+        CAST(strftime('%s', metadata_items.updated_at) AS INTEGER) AS media_last_update,
+        CAST(strftime('%s', media_items.updated_at) AS INTEGER) AS metadata_last_update
+    FROM media_items
+    INNER JOIN metadata_items
+        ON media_items.metadata_item_id = metadata_items.id
+    WHERE
+        media_items.library_section_id IN (2, 3) 
+        AND
+        media_id IN (9415, 9557);
+2020-07-09 21:37:50,187 - root.plexdata - DEBUG - 2 rows from plex database returned.
+2020-07-09 21:37:50,187 - root.plexdata - DEBUG - Query to execute:
+	REPLACE
+        INTO ifc_media(plex_media_id, plex_metadata_item_id,plex_media_last_update,plex_metadata_last_update)
+        VALUES(9415, 10533, 1593469440, 1536430128);
+2020-07-09 21:37:50,195 - root.plexdata - DEBUG - 1 rows in ifc database affected by the execute call.
+2020-07-09 21:37:50,195 - root.plexdata - DEBUG - Query to execute:
+	REPLACE
+        INTO ifc_media(plex_media_id, plex_metadata_item_id,plex_media_last_update,plex_metadata_last_update)
+        VALUES(9557, 10585, 1593469428, 1536534315);
+2020-07-09 21:37:50,198 - root.plexdata - DEBUG - 1 rows in ifc database affected by the execute call.
+2020-07-09 21:37:50,198 - root.plexdata - DEBUG - Query to execute:
+	SELECT plex_media_id, plex_metadata_item_id FROM ifc_media;
+2020-07-09 21:37:50,199 - root.plexdata - DEBUG - 3 rows from ifc database returned.
+2020-07-09 21:38:58,644 - root.plexdata - DEBUG - Path to this application: /home/ananchev/ifc-plex-stalker
+2020-07-09 21:38:58,645 - root.plexdata - DEBUG - Using interface db path: /home/ananchev/ifc-plex-stalker/interface.db
+2020-07-09 21:38:58,645 - root.plexdata - DEBUG - Using plex db path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-09 21:38:58,645 - root.plexdata - DEBUG - Using plex metadata folder path: /home/ananchev/plex-on-sub/Plug-in Support/Databases/com.plexapp.plugins.library.db
+2020-07-09 21:38:58,645 - root.plexdata - DEBUG - Using stalker database stalker_db on 192.168.2.72, connected as stalker user: 
+2020-07-09 21:38:58,651 - root.plexdata - INFO - success opening plex database connection
+2020-07-09 21:38:58,652 - root.plexdata - INFO - success opening ifc database connection
+2020-07-09 21:38:58,658 - root.plexdata - INFO - success opening stalker database connection
+2020-07-09 21:38:58,659 - root.plexdata - DEBUG - Query to execute:
+	SELECT DISTINCT tags_genre, library_section_id
+    FROM metadata_items
+    WHERE library_section_id IN (2, 3);
+2020-07-09 21:38:58,826 - root.plexdata - DEBUG - 28 rows from plex database returned.
+2020-07-09 21:38:58,828 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-09 21:38:58,828 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:38:58,829 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
+2020-07-09 21:38:58,838 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:38:58,838 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Biography', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Biography'
+    ) LIMIT 1
+2020-07-09 21:38:58,840 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:38:58,841 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Comedy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Comedy'
+    ) LIMIT 1
+2020-07-09 21:38:58,842 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:38:58,843 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Crime', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Crime'
+    ) LIMIT 1
+2020-07-09 21:38:58,844 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:38:58,844 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Drama', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Drama'
+    ) LIMIT 1
+2020-07-09 21:38:58,845 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:38:58,845 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Family', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Family'
+    ) LIMIT 1
+2020-07-09 21:38:58,846 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:38:58,847 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Fantasy', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Fantasy'
+    ) LIMIT 1
+2020-07-09 21:38:58,847 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:38:58,848 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'History', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'History'
+    ) LIMIT 1
+2020-07-09 21:38:58,849 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:38:58,849 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Music', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Music'
+    ) LIMIT 1
+2020-07-09 21:38:58,850 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:38:58,851 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Musical', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Musical'
+    ) LIMIT 1
+2020-07-09 21:38:58,852 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:38:58,852 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Romance', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Romance'
+    ) LIMIT 1
+2020-07-09 21:38:58,853 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:38:58,853 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Thriller', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Thriller'
+    ) LIMIT 1
+2020-07-09 21:38:58,854 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:38:58,854 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'War', 'movies') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'War'
+    ) LIMIT 1
+2020-07-09 21:38:58,855 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:38:58,856 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Action', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Action'
+    ) LIMIT 1
+2020-07-09 21:38:58,856 - root.plexdata - DEBUG - No recordset returned by the execute call on stalker database.
+2020-07-09 21:38:58,857 - root.plexdata - DEBUG - Query to execute:
+	INSERT INTO cat_genre (title, category_alias)
+    SELECT * FROM (SELECT 'Adventure', 'tv_shows') AS tmp
+    WHERE NOT EXISTS (
+        SELECT title FROM cat_genre WHERE title = 'Adventure'
+    ) LIMIT 1
