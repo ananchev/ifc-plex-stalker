@@ -6,7 +6,7 @@ from logging.handlers import RotatingFileHandler
 logger = logging.getLogger('root')
 
 consoleHandler = logging.StreamHandler()
-consoleFormatter = logging.Formatter('%(levelname)s - %(message)s')
+consoleFormatter = logging.Formatter('%(name)-23s %(message)s')
 consoleHandler.setFormatter(consoleFormatter)
 
 import os, sys
@@ -15,6 +15,12 @@ fileHandler = RotatingFileHandler('logfile.log',maxBytes=100000, backupCount=10)
 fileFormatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 fileHandler.setFormatter(fileFormatter)
 
-logger.setLevel(logging.DEBUG)
+dictLoggingOptions = {
+    "INFO" : logging.INFO,
+    "DEBUG": logging.DEBUG,
+    "WARNING": logging.WARNING,
+    "NOTSET": logging.NOTSET,
+}
+
 logger.addHandler(consoleHandler)
 logger.addHandler(fileHandler)

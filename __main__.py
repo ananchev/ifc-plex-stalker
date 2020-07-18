@@ -1,27 +1,28 @@
 #!/usr/bin/python
-from libs.plexdata import PlexData
-from libs.logger import logger
+import argparse
 
+
+from libs.interface import Interface
+from libs.logger import logger, dictLoggingOptions
 
 def main():
-    pd = PlexData(  '/home/ananchev/ifc-plex-stalker',
-                    '/home/ananchev/plex-on-sub',
-                    '192.168.2.72',
-                    'stalker',
-                    '1')
-    # logger.debug("syncronising Plex genres to Stalker")
-    # movies = pd.syncGenres()
-    logger.debug("updating ifc_media table with Plex data")
-    md = pd.updateIfcMediaTable()
-    # logger.debug("updating stalker video table")
-    # md = pd.updateStalkerVideoTable()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--log", 
+                        dest='logLevel', 
+                        default="INFO", 
+                        help="set program logging level",
+                        action="store", 
+                        choices=["WARNING","INFO", "DEBUG","NOTSET"])
+    args = parser.parse_args()
+    logger.setLevel(dictLoggingOptions[args.logLevel])
+
+    i = Interface(  '/home/ananchev/ifc-plex-stalker',
+                        '/home/ananchev/plex-on-sub',
+                        '192.168.2.72',
+                        'stalker',
+                        '1')
+    i.Execute()
     
 
 if __name__ == '__main__':
     main()
-
-
-# fh = logging.FileHandler('spam.log')
-# fh.setLevel(logging.DEBUG)
-# formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-# fh.setFormatter(formatter)

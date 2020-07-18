@@ -1,10 +1,11 @@
 -- media items
-SELECT * from media_items WHERE library_section_id = 2 LIMIT 20;
+SELECT * from media_items WHERE library_section_id in ( 3) LIMIT 20;
 SELECT * from media_items LIMIT 200;
-SELECT * from media_items WHERE id = 9755;
-SELECT id, metadata_item_id from media_items WHERE library_section_id = 2 LIMIT 10;
+SELECT * from media_items WHERE id = 10810;
+SELECT * from media_items WHERE metadata_item_id = 10816;
+SELECT id, metadata_item_id from media_items WHERE library_section_id = 2 LIMIT 30;
 
-SELECT * from metadata_items WHERE library_section_id =2 LIMIT 10;
+SELECT * from metadata_items WHERE library_section_id =3 AND metadata_type = 2 LIMIT 10;
 
 SELECT * FROM metadata_items LIMIT 10;
 
@@ -15,59 +16,43 @@ SELECT DISTINCT
 FROM metadata_items
 WHERE library_section_id IN (2,3);
 
---returns the tags
-SELECT DISTINCT tags_genre1, tags_genre2 
-FROM (
-    SELECT DISTINCT 
-        tags_genre,
-        LENGTH(tags_genre) AS len,
-        SUBSTR(tags_genre,1,LENGTH(tags_genre)-(LENGTH(tags_genre)-INSTR(tags_genre, '|')+1))
-            AS tags_genre1,
-        LTRIM(REPLACE(tags_genre,SUBSTR(tags_genre,1,LENGTH(tags_genre)-(LENGTH(tags_genre)-INSTR(tags_genre, '|')+1)),''),'|')
-            AS tags_genre2
-    FROM metadata_items
-    WHERE library_section_id = 2);
-
---below is to update the genres in stalker
-SELECT DISTINCT tags_genre1 
-FROM (
-    SELECT DISTINCT 
-        tags_genre,
-        LENGTH(tags_genre) AS len,
-        SUBSTR(tags_genre,1,LENGTH(tags_genre)-(LENGTH(tags_genre)-INSTR(tags_genre, '|')+1))
-            AS tags_genre1,
-        LTRIM(REPLACE(tags_genre,SUBSTR(tags_genre,1,LENGTH(tags_genre)-(LENGTH(tags_genre)-INSTR(tags_genre, '|')+1)),''),'|')
-            AS tags_genre2
-    FROM metadata_items
-    WHERE library_section_id = 2 AND LENGTH(tags_genre1) > 0)
-UNION
-SELECT DISTINCT tags_genre2 AS tags_genre1
-FROM (
-    SELECT DISTINCT 
-        tags_genre,
-        LENGTH(tags_genre) AS len,
-        SUBSTR(tags_genre,1,LENGTH(tags_genre)-(LENGTH(tags_genre)-INSTR(tags_genre, '|')+1))
-            AS tags_genre1,
-        LTRIM(REPLACE(tags_genre,SUBSTR(tags_genre,1,LENGTH(tags_genre)-(LENGTH(tags_genre)-INSTR(tags_genre, '|')+1)),''),'|')
-            AS tags_genre2
-    FROM metadata_items
-    WHERE library_section_id = 2 AND LENGTH(tags_genre2) > 0);
 
 
+SELECT * from metadata_items WHERE metadata_items.title like '%fight%' and library_section_id =3;
+
+SELECT 
+    title as name,
+    title as o_name,
+    '' AS time,
+    summary as description,
+    2 as category_id,    
+    tags_genre AS category_genre_tags,
+    REPLACE(tags_director, '|',', ') AS director,
+    REPLACE(tags_star, '|',', ') AS actors,
+    year,
+    metadata_type
+FROM metadata_items
+WHERE
+    metadata_items.id = 10810;
 
 
 SELECT 
-    media_items.id AS media_id,
-    metadata_item_id AS metadata_id,
-    CAST(strftime('%s', metadata_items.updated_at) AS INTEGER) AS media_last_update,
-    CAST(strftime('%s', media_items.updated_at) AS INTEGER) AS metadata_last_update
+    title as name,
+    title as o_name,
+    (media_items.duration / 1000 / 60) AS time,
+    summary as description,
+    1 as category_id,    
+    tags_genre AS category_genre_tags,
+    REPLACE(tags_director, '|',', ') AS director,
+    REPLACE(tags_star, '|',', ') AS actors,
+    year,
+    metadata_type
 FROM media_items
 INNER JOIN metadata_items
     ON media_items.metadata_item_id = metadata_items.id
 WHERE
-    media_items.library_section_id = 2 
-    AND
-    media_id IN (9415, 9557, 9972, 9695, 9888, 9973, 10135, 10136, 9402, 9407 );
+    metadata_items.id = 10524;
+
 
 
 
@@ -78,9 +63,9 @@ SELECT
     title, 
     summary,
     (media_items.duration / 1000 / 60) || ' min' AS duration,
-    REPLACE(tags_genre,'|',', ') AS tags_genre,
-    REPLACE(tags_director,'|',', ') AS tags_director,
-    REPLACE(tags_star,'|',', ') AS tags_start,
+    tags_genre AS tags_genre,
+    tags_director AS tags_director,
+    tags_star AS tags_start,
     year,
     user_thumb_url,
     CAST(strftime('%s', metadata_items.updated_at) AS INTEGER) AS media_last_updated,
@@ -89,16 +74,40 @@ FROM media_items
 INNER JOIN metadata_items
     ON media_items.metadata_item_id = metadata_items.id
 WHERE
-    media_items.library_section_id = 2 
+    media_items.library_section_id IN(2, 3) 
     AND
-    media_item_id IN (9415, 9557);
+    media_item_id IN (10810);
+
+
+SELECT 
+    mi.parent_id as series_metadata_id,
+    metadata_season.title as series_title,
+    'Season ' || mi.'index' as season,
+    mi.id as season_metadata_id,
+    CAST(strftime('%s', metadata_season.updated_at) AS INTEGER) AS s_metadata_last_updated,
+    COUNT(*) as nbr_episodes
+FROM metadata_items as mi
+JOIN metadata_items AS metadata_season 
+    ON mi.parent_id = metadata_season.id
+LEFT OUTER JOIN metadata_items as metadata_episodes
+    ON mi.id = metadata_episodes.parent_id
+WHERE mi.parent_id = 10810
+GROUP BY season_metadata_id
+
+
+SELECT * from metadata_items WHERE parent_id = 11258;
+
+SELECT * from media_items WHERE metadata_item_id = 10813;
+
+SELECT * from metadata_items WHERE id = 10813;
 
 /*
 beauty and the beast
 id = 9415
 metadata_item_id = 10533
 */
-
+--the good wife series id in metadata_items 11257
+--band of brothers series id in metadata_items 10810
 /*
 band of brothers s1 e1
 id=10125
@@ -214,3 +223,21 @@ SELECT * from section_locations;
 4	10	3	                /mnt/Video/TV
 5	11	5	                /mnt/Video/Recordings
 */
+
+SELECT 
+    mti.title as episode_title,
+    mti.'index' as episode_number,
+    mi.id as media_item_id,
+    COUNT(*) AS number_of_files
+FROM metadata_items AS mti
+JOIN media_items AS mi
+    ON mi.metadata_item_id = mti.id
+JOIN media_streams AS ms
+    ON ms.media_item_id = mi.id
+WHERE 
+    mti.parent_id = 10813
+    AND --band of brothers season 1
+    ms.stream_type_id IN (1, 3) -- 1 = video, 3 = subs
+GROUP BY ms.media_item_id
+ORDER BY mti.'index'
+
